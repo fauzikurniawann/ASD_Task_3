@@ -10,7 +10,7 @@ address sentinelSearch(List L, infotype x){
     *      mengembalikan NULL jika tidak ditemukan
     */
     //-------------your code here-------------
-    // NIM : 
+    // NIM :
 
 
     //----------------------------------------
@@ -25,7 +25,7 @@ void insertionSort(List &L){
     */
 
     //-------------your code here-------------
-    // NIM : 
+    // NIM :
 
 
     //----------------------------------------
@@ -40,8 +40,16 @@ void deletebyID(List &L, infotype x) {
 
     address Prec, P;
     //-------------your code here-------------
-    // NIM : 
+    // NIM : 130154267
+    Prec=findElm(L,x);
+    deleteAfter(Prec,P);
+    cout <<"id yang anda hapus adalah ";
+    info(P);
+    cout <<"dengan address : ";
+    cout <<P;
+    dealokasi(P);
 
-	
+
+
     //----------------------------------------
 }
