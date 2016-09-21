@@ -50,6 +50,7 @@ void insertFirst(List &L, address P) {
         next(P)=first(L);
         first(L)=P;
 	}
+	
 
 
     //----------------------------------------
