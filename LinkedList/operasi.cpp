@@ -48,6 +48,7 @@ void deletebyID(List &L, infotype x) {
     cout <<"dengan address : ";
     cout <<P;
     dealokasi(P);
+    
 
 
 
